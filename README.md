@@ -9,7 +9,7 @@
 ## Install
 
 ```bash
-$ npm install doxdox @neogeek/doxdox-plugin-example --save-dev
+$ npm install doxdox doxdox-plugin-example --save-dev
 ```
 
 ## Usage
