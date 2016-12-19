@@ -1,0 +1,41 @@
+{
+  "name": "doxdox-plugin-example",
+  "description": "Example template plugin for doxdox.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "4.0.6",
+    "highlight.js": "9.9.0",
+    "markdown-it": "8.2.2"
+  },
+  "devDependencies": {
+    "@neogeek/eslint-config-standards": "1.10.0",
+    "eslint": "3.12.2"
+  },
+  "peerDependencies": {
+    "doxdox": "~2.0.1"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "doxdox",
+    "plugin"
+  ],
+  "authors": [
+    {
+      "name": "Scott Doxey",
+      "email": "hello@scottdoxey.com",
+      "homepage": "http://scottdoxey.com/"
+    }
+  ],
+  "homepage": "https://github.com/neogeek/doxdox-plugin-example",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neogeek/doxdox-plugin-example.git"
+  }
+}
