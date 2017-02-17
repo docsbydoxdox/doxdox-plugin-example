@@ -1,5 +1,7 @@
 # doxdox-plugin-example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/neogeek/doxdox-plugin-example.svg)](https://greenkeeper.io/)
+
 > Example template plugin for doxdox.
 
 [![Build Status](https://travis-ci.org/neogeek/doxdox-plugin-example.svg?branch=master)](https://travis-ci.org/neogeek/doxdox-plugin-example)
