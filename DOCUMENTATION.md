@@ -1,4 +1,4 @@
-# [doxdox-plugin-example](https://github.com/neogeek/doxdox-plugin-example) *1.0.1*
+# [doxdox-plugin-example](https://github.com/neogeek/doxdox-plugin-example) *1.0.2*
 
 > Example template plugin for doxdox.
 
