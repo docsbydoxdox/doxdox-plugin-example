@@ -8,13 +8,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "handlebars": "4.0.11",
-    "highlight.js": "9.12.0",
-    "markdown-it": "8.4.0"
+    "handlebars": "4.1.0",
+    "highlight.js": "9.15.6",
+    "markdown-it": "8.4.2"
   },
   "devDependencies": {
-    "@neogeek/eslint-config-standards": "^2.0.0",
-    "eslint": "^4.2.0"
+    "@neogeek/eslint-config-standards": "4.1.0",
+    "babel-eslint": "10.0.1",
+    "eslint": "5.14.1"
   },
   "peerDependencies": {
     "doxdox": "~2.0.3"
