@@ -10,7 +10,8 @@
   "dependencies": {
     "handlebars": "4.1.0",
     "highlight.js": "9.15.6",
-    "markdown-it": "8.4.2"
+    "markdown-it": "8.4.2",
+    "snyk": "^1.319.1"
   },
   "devDependencies": {
     "@neogeek/eslint-config-standards": "4.1.0",
@@ -25,7 +26,9 @@
     "test:docs": "doxdox index.js --layout markdown | diff DOCUMENTATION.md -",
     "lint": "eslint .",
     "fixtures": "doxdox index.js --layout index.js --output test/fixtures/documentation.html",
-    "docs": "doxdox index.js --layout markdown --output DOCUMENTATION.md"
+    "docs": "doxdox index.js --layout markdown --output DOCUMENTATION.md",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "doxdox",
@@ -43,5 +46,6 @@
     "type": "git",
     "url": "git://github.com/neogeek/doxdox-plugin-example.git"
   },
-  "private": true
+  "private": true,
+  "snyk": true
 }
